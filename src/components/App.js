@@ -13,9 +13,6 @@ const App = () => {
             <br></br>
             <Count/>
             <br></br>
-            <h1 id='calc'>1000000000</h1>
-            <br></br>
-            <p>1000000000</p>
             <hr></hr>
             <br></br>
             <hr></hr>
