@@ -9,7 +9,7 @@ const Todos = () => {
         {todo && todo.map((val,index) => <p key={index} id={"todo-"+ index}>{val}</p>)}
       </div>
       <br></br>
-      <button id="add-todo-btn" onClick={() => setTodo([...todo, "New todo"])}>Add Todo</button>
+      <button id="add-todo-btn" onClick={() => setTodo([...todo, "New Todo"])}>Add Todo</button>
     </div>
   );
 };
