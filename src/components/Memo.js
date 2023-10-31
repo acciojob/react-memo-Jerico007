@@ -16,7 +16,7 @@ const Memo = () => {
       <h1>React.memo</h1>
       <br></br>
       <form onSubmit={handelSubmit}>
-        <input
+        <input id="skill-input"
           type="text"
           value={value}
           onInput={(e) => {
