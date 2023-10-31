@@ -13,7 +13,7 @@ const App = () => {
             <br></br>
             <Count/>
             <br></br>
-            <h1>Expensive Calculation</h1>
+            <h1 id='calc'>Expensive Calculation</h1>
             <br></br>
             <p>1000000000</p>
             <hr></hr>
