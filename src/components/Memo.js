@@ -23,7 +23,7 @@ const Memo = () => {
             setVal(e.target.value);
           }}
         ></input>
-        <button type="submit">Add Skill</button>
+        <button id="skill-btn" type="submit">Add Skill</button>
       </form>
       <br></br>
       <ul>{skill && skill.map((val, index) => <li key={index}>{val}</li>)}</ul>
