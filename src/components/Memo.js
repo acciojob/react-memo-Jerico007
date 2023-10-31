@@ -26,7 +26,7 @@ const Memo = () => {
         <button id="skill-btn" type="submit">Add Skill</button>
       </form>
       <br></br>
-      <ul>{skill && skill.map((val, index) => <li key={index}>{val}</li>)}</ul>
+      <ul>{skill && skill.map((val, index) => <li key={index} id={"item-"+ val}>{val}</li>)}</ul>
     </div>
   );
 };
